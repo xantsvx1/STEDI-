@@ -7,6 +7,6 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://accelerometer-s3-landing/accelerometer/landing/'
+  's3://accelerometer-s3-landing/'
 TBLPROPERTIES (
   'classification'='json')
